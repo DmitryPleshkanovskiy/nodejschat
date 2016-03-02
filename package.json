@@ -1,0 +1,39 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Nodejs chat",
+  "main": "server/server.js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "crypto": "0.0.3",
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "morgan": "^1.7.0",
+    "nconf": "^0.8.4",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.3.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryPleshkanovskiy/nodejschat.git"
+  },
+  "keywords": [
+    "chat",
+    "nodejs",
+    "socket",
+    "mongodb"
+  ],
+  "author": "DPSoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryPleshkanovskiy/nodejschat/issues"
+  },
+  "homepage": "https://github.com/DmitryPleshkanovskiy/nodejschat#readme"
+}

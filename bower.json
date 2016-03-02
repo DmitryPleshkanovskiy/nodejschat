@@ -1,0 +1,28 @@
+{
+  "name": "chat",
+  "description": "Nodejs chat",
+  "main": "server/server.js",
+  "authors": [
+    "DPSoft"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "chat",
+    "nodejs",
+    "socket",
+    "mongodb"
+  ],
+  "homepage": "https://github.com/DmitryPleshkanovskiy/nodejschat",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

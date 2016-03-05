@@ -5,9 +5,13 @@
   "main": "server/server.js",
   "dependencies": {
     "async": "^1.5.2",
+    "connect-mongo": "^1.1.0",
+    "connect-mongostore": "^0.1.4",
+    "cookie-parser": "^1.4.1",
     "crypto": "0.0.3",
     "errorhandler": "^1.4.3",
     "express": "^4.13.4",
+    "express-session": "^1.13.0",
     "http": "0.0.0",
     "morgan": "^1.7.0",
     "nconf": "^0.8.4",

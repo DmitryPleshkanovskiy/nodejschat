@@ -9,5 +9,9 @@
         }
       }
     }
+  },
+  "session": {
+    "secret": "KillerIsJim",
+    "key": "sid"
   }
 }

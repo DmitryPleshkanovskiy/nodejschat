@@ -7,11 +7,23 @@ angular.module("chat")
         $scope.isError = false;
         $scope.showError = function(message) {
             $scope.isError = true;
-            $scope.errorMessage = 'Error ' + message;
+            $scope.errorMessage = message;
         };
         $scope.login = function () {
-            $scope.showError("invalid email");
+            if (isValidEmail($scope.email) && isValidPass($scope.password)) {
+                //login
+            } else {
+                $scope.showError("Wrong pass or email");
+            }
             console.log($scope.email);
             console.log($scope.password);
         };
     }]);
+
+function isValidEmail(email) {
+    return false;
+}
+
+function isValidPass(pass) {
+    return true;
+}

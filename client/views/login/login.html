@@ -4,7 +4,7 @@
             <div class="alert alert-danger" role="alert" ng-show="isError">
                 <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
                 <span class="sr-only">Error:</span>
-                {{errorMessage}}
+                <strong>Error: </strong>{{errorMessage}}
             </div>
             <form class="form-signin">
                 <div class="form-group">
@@ -15,7 +15,8 @@
                     <label for="InputPass">Password</label>
                     <input type="password" class="form-control" id="InputPass" placeholder="Password" ng-model="password">
                 </div>
-                <button class="btn btn-primary" ng-click="login()">Log in</button>
+                <button class="btn btn-primary" ng-click="login()">Log in</button> Forgot your pass? <a href="/restorepass">Restore password</a>
+                <br> Not registered? <a href="/signup">Sign up</a>
             </form>
         </div>
     </div>
